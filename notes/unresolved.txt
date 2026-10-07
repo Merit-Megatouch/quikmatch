@@ -3,5 +3,4 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 t_i_l() | quikmatch.so
-HighScoresManager::PlayerName(int) | quikmatch.so
 USBIO::FoundUSB() | quikmatch.so
