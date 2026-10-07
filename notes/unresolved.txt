@@ -5,6 +5,3 @@
 t_i_l() | quikmatch.so
 HighScoresManager::PlayerName(int) | quikmatch.so
 USBIO::FoundUSB() | quikmatch.so
-GameClass::GameClass() | quikmatch.so
-GameClass::~GameClass() | quikmatch.so
-typeinfo for GameClass | quikmatch.so
