@@ -2,89 +2,9 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-CardG | quikmatch.so
-LinkEasyMode | quikmatch.so
-NetGlob | quikmatch.so
-Card_PollLinks() | quikmatch.so
-DisplayDefeated(int, int) | quikmatch.so
-Card_ProcessInfo() | quikmatch.so
-Card_LinkWaitForAll(unsigned long) | quikmatch.so
-Card_ProcessRTPackets(unsigned char) | quikmatch.so
-MeritthonDisplayRound(int, int, int, unsigned long) | quikmatch.so
 t_i_l() | quikmatch.so
-GetMyId() | quikmatch.so
-u_m_m_s(char const*, char*, char*, unsigned int) | quikmatch.so
-GetMaster() | quikmatch.so
-NetGlobals::GetLeaderScore() | quikmatch.so
-NetGlobals::GetRank(unsigned char) | quikmatch.so
-TextSystem::LoadTranslations(xml_gameinfo::GameIds) | quikmatch.so
-Translator::nTranslate(char*, unsigned int, char const*) | quikmatch.so
-WorldClass::FrameNumber(Bitmap*) | quikmatch.so
-WorldClass::WaitOnFrame(unsigned long, bool) | quikmatch.so
-WorldClass::CopyCompBitmap(Bitmap*, int, int, int, int, int, int, int, int, int, int, bool) | quikmatch.so
-WorldClass::LoadBmp(char const*, int, float, int, int, bool, bool, Bitmap*) | quikmatch.so
-WorldClass::SetBack(char const*, int) | quikmatch.so
-WorldClass::SetBack(short) | quikmatch.so
-WorldClass::ShowAll() | quikmatch.so
-WorldClass::GetFrame(Bitmap*, int) | quikmatch.so
-WorldClass::DeleteBmp(Bitmap*, unsigned char) | quikmatch.so
-WorldClass::NextFrame(unsigned char, unsigned char, bool, bool, bool, bool) | quikmatch.so
-WorldClass::PlayMovie(int, unsigned long, void (*)(unsigned char), unsigned char, bool, bool, bool, bool) | quikmatch.so
-WorldClass::WorldClass() | quikmatch.so
-system_info::Get_Motherboard_Type() | quikmatch.so
 HighScoresManager::PlayerName(int) | quikmatch.so
-List::Push(Group*) | quikmatch.so
-List::Clear(unsigned char) | quikmatch.so
-List::List(List*) | quikmatch.so
-Books::Credits(xml_gameinfo::GameIds, enums::Span) | quikmatch.so
-Books::Instance() | quikmatch.so
-Group::Signal(Group::SpriteSignalType) | quikmatch.so
-Group::Signal(SpriteSignal*) | quikmatch.so
-Group::Message(Group::SpriteSignalType) | quikmatch.so
-Group::Message(SpriteSignal*) | quikmatch.so
 USBIO::FoundUSB() | quikmatch.so
-Bitmap::ReplaceTrans(bool) | quikmatch.so
-Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | quikmatch.so
-Bitmap::GreyBmp() | quikmatch.so
-EventO::GetType() | quikmatch.so
-EventO::EventO() | quikmatch.so
-EventO::~EventO() | quikmatch.so
-Sprite::DoNextFrame() | quikmatch.so
-Sprite::AssignString(String*, unsigned long) | quikmatch.so
-Sprite::ClicksEnabled | quikmatch.so
-Sprite::EffectExplode(int, int, int, unsigned long) | quikmatch.so
-Sprite::EffectImplode(int, int, int, unsigned long) | quikmatch.so
-Sprite::EffectOutline(int, unsigned char, unsigned char, unsigned char, bool) | quikmatch.so
-Sprite::DeleteAfterLast(unsigned long) | quikmatch.so
-Sprite::Move(int, int, int, int, int, int, unsigned long, unsigned long, unsigned char) | quikmatch.so
-Sprite::Reset() | quikmatch.so
-Sprite::Scale(float, float, unsigned long, unsigned long, unsigned char) | quikmatch.so
-Sprite::DoDraw() | quikmatch.so
-Sprite::Enable(unsigned long) | quikmatch.so
-Sprite::FadeIn(unsigned long, unsigned long, int, int) | quikmatch.so
-Sprite::SetBmp(Bitmap*, unsigned long) | quikmatch.so
-Sprite::Signal(Group::SpriteSignalType) | quikmatch.so
-Sprite::Signal(SpriteSignal*) | quikmatch.so
-Sprite::Disable(unsigned long, bool) | quikmatch.so
-Sprite::FadeOut(unsigned long, unsigned long, int, int) | quikmatch.so
-Sprite::Message(Group::SpriteSignalType) | quikmatch.so
-Sprite::Message(SpriteSignal*) | quikmatch.so
-Sprite::RunAnim(Bitmap*, int, int, int, unsigned long, float, unsigned long, int) | quikmatch.so
-Sprite::SetCord(float, float, float, unsigned long) | quikmatch.so
-Sprite::SetSize(int, int) | quikmatch.so
-Sprite::DoCommand(int) | quikmatch.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | quikmatch.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | quikmatch.so
-Sprite::~Sprite() | quikmatch.so
-String::Copy() | quikmatch.so
-String::String(char const*, int, char const*, int, signed char, int, int, int, unsigned char, unsigned char, unsigned short) | quikmatch.so
 GameClass::GameClass() | quikmatch.so
 GameClass::~GameClass() | quikmatch.so
-typeinfo for EventO | quikmatch.so
-typeinfo for Sprite | quikmatch.so
 typeinfo for GameClass | quikmatch.so
-vtable for DOSLinuxWorld | quikmatch.so
-clear_bitmap | quikmatch.so
-gfx_driver | quikmatch.so
-keypressed | quikmatch.so
-screen | quikmatch.so
